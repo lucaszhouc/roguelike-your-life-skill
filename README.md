@@ -84,3 +84,11 @@ See `docs/public-release-privacy.md`.
 This is a small, single-maintainer skill pack. Issues and pull requests are welcome, but responses may take time. For security reports or time-sensitive questions, email `lucaszhouc@gmail.com`.
 
 The package is published directly from the repository without numbered releases or version tags.
+
+## Consumer launch page
+
+For visitors arriving from social posts, use the HTTPS launcher on the personal site:
+
+<https://lucaszhouc.pages.dev/play/roguelike-your-life/>
+
+GitHub remains the source and developer destination. The personal-site launcher copies a public bootstrap prompt and attempts the ChatGPT app deep link only after the visitor taps the primary button.

@@ -37,3 +37,11 @@
 这是一个由单人维护的小型 Skill 包。欢迎提交 Issue 和 PR，但回复可能需要时间。安全问题或时间敏感的问题请发邮件至 `lucaszhouc@gmail.com`。
 
 仓库直接发布，不使用编号版本或版本标签。
+
+## 面向普通用户的入口
+
+消费者请使用个人站上的 HTTPS 启动页：
+
+<https://lucaszhouc.pages.dev/play/roguelike-your-life/>
+
+GitHub 只作为源码和开发者入口，不作为普通用户的主要入口。
