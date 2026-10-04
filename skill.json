@@ -1,0 +1,16 @@
+{
+  "name": "roguelike-your-life",
+  "display_name": "Roguelike Your Life",
+  "description": "Turn a context-aware AI chat into a roguelike-style life save report with character stats, relics, debuffs, active runs, bosses, failure drops, meta progression, and an ultra-long visual scroll.",
+  "default_language": "en",
+  "default_title": "ROGUELIKE YOUR LIFE",
+  "default_visual_style": "hades-inspired-primary",
+  "visual_output": {
+    "target_ratio": "1:6",
+    "generation_strategy": "two-continuous-1:3-panels",
+    "top_sections": [1, 2, 3, 4, 5],
+    "bottom_sections": [6, 7, 8, 9, 10, 11]
+  },
+  "entrypoint": "SKILL.md",
+  "privacy": "Public examples must be fictional or anonymized. Never expose personal identifiers, private account handles, locations, finances, exact identifying dates, confidential achievements, credentials, or private conversation excerpts."
+}

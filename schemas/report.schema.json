@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Roguelike Your Life Report",
+  "type": "object",
+  "required": ["save_summary", "character", "stats", "relics", "debuffs", "active_runs", "bosses", "run_log", "meta_progress"],
+  "properties": {
+    "save_summary": {"type": "string"},
+    "character": {
+      "type": "object",
+      "properties": {
+        "class": {"type": "string"},
+        "stage": {"type": "string"},
+        "difficulty": {"type": "string"},
+        "main_quest": {"type": "string"}
+      }
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "score": {"type": "number", "minimum": 0, "maximum": 100},
+          "evidence": {"type": "string"},
+          "confidence": {"enum": ["high", "medium", "low"]}
+        }
+      }
+    },
+    "passive_traits": {"type": "array", "items": {"type": "string"}},
+    "relics": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "effect": {"type": "string"}}}},
+    "debuffs": {"type": "array", "items": {"type": "object", "properties": {"name": {"type": "string"}, "impact": {"type": "string"}}}},
+    "reality_analysis": {"type": "object"},
+    "active_runs": {"type": "array", "items": {"type": "object"}},
+    "path_breakdown": {"type": "array", "items": {"type": "object"}},
+    "bosses": {"type": "array", "items": {"type": "object"}},
+    "run_log": {"type": "array", "items": {"type": "object"}},
+    "failure_drops": {"type": "array", "items": {"type": "string"}},
+    "meta_progress": {"type": "object"}
+  }
+}
